@@ -100,7 +100,7 @@ const Main = () => {
           onChange={(e) => setLocationFilter(e.target.value)}
           className="location-filter"
         >
-          <option value="all"> <IoLocationOutline /> Location</option>
+          <option value="all">Location</option>
           {uniqueLocations.map((location) => (
             <option key={location} value={location}>
               {location}
